@@ -1,4 +1,4 @@
-#!/bin/bash 
+!/bin/bash 
 
 # restore maven dependencies downloaded in a previous build,
 # so they do not have to be downloaded again.  
