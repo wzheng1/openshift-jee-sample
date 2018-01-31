@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+# restore maven dependencies downloaded in a previous build,
+# so they do not have to be downloaded again.  
+# /tmp/artifacts will only be present in the incremental build scenario
+# in which the target image name is an existing docker image which contains
+# dependencies from a prior build execution.
+df -h
